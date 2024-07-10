@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="body_encriptador">
+    <header >
+        <div class="header_encriptador_logo">
+     
+        <img class="header_logo_imegen" src="./asset/Logo.png" alt="logo">
+    </div>
+    </header>
+    <main>
+        <div class="encriptador_main">
+        <div id="izquierda" class="encriptador_izquierda ajuste_iezquierda">
+            
+            <textarea id="ingresoTexto" class="encriptador_ingreso_texto" placeholder="Ingresar texto" name="" id="" cols="30" rows="10"></textarea>
+           <div class="encriptador_izquierda_footer">
+            <img src="./asset/bi_exclamation-circle-fill.png" alt="logo_atencion" >
+            <p class="encriptador_izquierda_footer_parrafo">Solo letras en minusculas y sin acentos</p>
+            <div class="encriptador_izquierda_footer_botones">
+            <button id="botonEncriptar" class="encriptador_izquierda_footer_botones_encriptar">Encriptar</button>
+            <button id="botonDesencriptar" class="encriptador_izquierda_footer_botones_desencriptar">Desencriptar</button>
+        </div>
+        </div>
+        </div>
+        <div id="derecha" class="encriptador_derecha ajuste_derecha">
+            <img id="muneco" class="encriptador_derecha_imagen" src="./asset/Muneco.png" alt="">
+            <textarea id="mensajeFinal"  class="encriptador_derecha_mensaje ajuste_derecha" placeholder="Ningun mensaje fue encontrado" ></textarea>
+        
+            <p id="derechaInfo" class="encriptador_derecha_mensaje_2">Ingresa el texto que desees encriptar o desencreiptar</p>
+            <button id="botonCopiar" class="encriptador_derecha_boton_copiar oculto">Copiar</button>
+        </div>
+    </div>
+    </main>
+    <!-- <footer>
+
+    </footer> -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
